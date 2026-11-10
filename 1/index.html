@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>굿나잇티 콘텐츠 가이드 1</title><meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="굿나잇티 콘텐츠 가이드"><meta property="og:image" content="https://collab.giboon.kr/1/img/hero.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+:root{--ink:#2B1D14;--sub:#6B5A4E;--mute:#9A8A7E;--accent:#C8441F;--line:#EFE7E1;--soft:#FBF6F2;--bg:#FFFFFF}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:Pretendard,-apple-system,sans-serif;letter-spacing:-0.02em;line-height:1.65;word-break:keep-all}
+img{display:block;width:100%;height:auto}
+.wrap{max-width:560px;margin:0 auto;background:var(--bg)}
+section{padding:56px 24px}
+.soft{background:var(--soft)}
+.kick{font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--accent);margin-bottom:12px;text-transform:uppercase}
+h1{font-size:34px;line-height:1.25;font-weight:800;margin-bottom:14px}
+h2{font-size:26px;line-height:1.35;font-weight:800;margin-bottom:18px}
+h2 em,h1 em{font-style:normal;color:var(--accent)}
+h3{font-size:19px;line-height:1.4;font-weight:700;margin-bottom:8px}
+p{font-size:16px;color:var(--sub)}
+p+p{margin-top:12px}
+.lead{font-size:17px;color:var(--ink);font-weight:500}
+.photo{margin:0 -24px 28px}
+.photo img{max-height:340px;object-fit:cover}
+.round{border-radius:16px;overflow:hidden;margin-bottom:24px}
+/* hero */
+.hero img{width:100%}
+.hero .in{padding:36px 24px 48px}
+.hero .meta{margin-top:18px;font-size:14px;color:var(--mute);font-weight:600;letter-spacing:.02em}
+.flow{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.flow span{font-size:13px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:30px;padding:6px 14px}
+/* worries */
+.worry{display:grid;gap:10px;margin:22px 0 26px}
+.worry div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:16px;font-weight:500;color:var(--ink)}
+.worry b{color:var(--accent)}
+/* product */
+.brand{font-size:28px;font-weight:800;letter-spacing:.01em;margin-top:6px}
+.brandsub{font-size:15px;color:#6B4FA0;font-weight:600;margin-bottom:22px}
+.patent{border:1.5px solid var(--accent);border-radius:14px;padding:16px 18px;margin-bottom:20px}
+.patent b{display:block;font-size:17px;color:var(--accent);font-weight:800}
+.patent span{font-size:13px;color:var(--mute)}
+.spec{border-top:1px solid var(--line)}
+.spec div{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+.spec div span:first-child{color:var(--sub)}
+.spec div span:last-child{font-weight:700;text-align:right}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 10px}
+.chips span{background:var(--accent);color:#fff;font-size:13px;font-weight:700;padding:7px 14px;border-radius:30px}
+.small{font-size:13px;color:var(--mute)}
+/* founder */
+.founder{display:flex;gap:18px;align-items:center;margin-bottom:24px}
+.founder img{width:120px;flex:0 0 120px;border-radius:12px}
+.founder q{quotes:none;font-size:18px;line-height:1.45;font-weight:700;color:var(--ink)}
+.sign{margin-top:18px;font-weight:700;color:var(--ink);font-size:15px}
+/* formula */
+.cards{display:grid;gap:14px;margin-top:6px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.card.main{border:1.5px solid var(--accent)}
+.card .tag{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--accent);margin-bottom:6px}
+.card .row{display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid var(--line);font-size:15px}
+.card .row b{color:var(--accent)}
+.card p{font-size:14.5px;margin-top:10px}
+/* trend */
+.stats{display:flex;gap:12px;margin:18px 0}
+.stats div{flex:1;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.stats b{display:block;font-size:28px;color:var(--accent);font-weight:800;line-height:1.2}
+.stats span{font-size:13px;color:var(--sub)}
+.recipe{font-size:15px;color:var(--sub);margin-bottom:16px}
+.recipe b{color:var(--ink)}
+.banner{background:var(--accent);color:#fff;font-weight:700;font-size:16px;border-radius:12px;padding:14px 16px;text-align:center}
+/* mood */
+.mood{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:18px}
+.mood img{aspect-ratio:3/4;object-fit:cover;border-radius:8px}
+/* deliver */
+.dgrid{display:grid;gap:10px;margin-bottom:22px}
+.dgrid div{border:1px solid var(--line);border-radius:14px;padding:16px 18px;background:#fff}
+.dgrid small{display:block;font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--accent);margin-bottom:4px}
+.dgrid b{font-size:17px}
+.dgrid span{display:block;font-size:14px;color:var(--sub);margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td{padding:13px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td:first-child{color:var(--sub);width:34%;padding-right:10px}
+td:last-child{font-weight:600}
+/* closing */
+.closing{text-align:center;padding-bottom:72px}
+.closing .round{max-width:300px;margin:0 auto 28px}
+.btn{display:inline-block;margin-top:26px;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:16px;padding:16px 28px;border-radius:40px}
+.foot{font-size:13px;color:var(--mute);margin-top:30px;letter-spacing:.04em}
+
+.steps{list-style:none;counter-reset:s;margin-top:4px}
+.steps li{counter-increment:s;position:relative;padding:14px 0 14px 40px;border-top:1px solid var(--line);font-size:15.5px;color:var(--sub)}
+.steps li:before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:14px;font-weight:800;color:var(--accent)}
+.steps li b{color:var(--ink);font-weight:700;margin-right:4px}
+.hookex{background:#fff;border:1.5px solid var(--accent);border-radius:14px;padding:14px 16px;margin-top:18px;font-weight:700;font-size:16px}
+.hookex small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}
+.ref{font-size:14px;color:var(--mute);margin-top:12px;white-space:pre-line}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:6px 0 14px}
+.grid3 figure img{aspect-ratio:3/4;object-fit:cover;border-radius:10px}
+.grid3 figcaption{font-size:12.5px;color:var(--sub);margin-top:6px;line-height:1.4}
+.kw{display:flex;flex-wrap:wrap;gap:6px}
+.kw span{font-size:13px;border:1px solid var(--line);border-radius:30px;padding:5px 12px;color:var(--sub);background:#fff}
+.mh{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.mh figure img{aspect-ratio:1/1;object-fit:cover;border-radius:12px}
+.mh b{display:block;font-size:15px;margin-top:8px}
+.mh span{display:block;font-size:13.5px;color:var(--sub);line-height:1.5}
+.rule{font-size:14px;color:var(--sub);margin-top:18px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:12px}
+.box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;margin-bottom:14px}
+.box .tag{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--accent);margin-bottom:10px}
+.box ul{list-style:none}
+.box li{font-size:15px;color:var(--ink);padding:6px 0;border-top:1px solid var(--line)}
+.box li:first-child{border-top:0}
+.box li.strong{font-weight:700}
+.note{text-align:center;font-weight:700;margin-top:20px}
+.back{display:block;text-align:center;margin-top:18px;font-size:14px;color:var(--accent);font-weight:700;text-decoration:none}
+</style></head><body><div class="wrap">
+<header class="hero"><img src="img/hero.jpg" alt="" style="max-height:420px;object-fit:cover">
+<div class="in"><div class="kick">Content Guide · EPISODE 01 · 새벽에 자꾸 깨는 밤 · 40대 중후반</div>
+<h1>새벽에 자꾸 깨던 밤,<br><em>전통 레시피 한 잔으로 달라진 나이트-케어 루틴</em></h1>
+<p class="lead">GOOD NIGHTY × 크리에이터 콘텐츠 가이드</p>
+<div class="meta">세로 영상(릴스) 1편 · 최소 3일 이상 루틴으로 마신 뒤 촬영</div></div></header>
+
+<section class="soft"><div class="kick">01 · Story</div><h2>이렇게 흘러가면 좋아요</h2>
+<ol class="steps"><li><b>훅</b>「새벽 3시 반, 오늘도 또 깼다」 — 어두운 방, 새벽 시계가 보이는 폰 화면</li><li><b>내 이야기</b>자다가 자꾸 깨고, 아침엔 몸이 무겁고 얼굴이 붓던 요즘. 「차 한 잔으로 뭐가 달라지겠어」 반신반의로 시작</li><li><b>제품</b>서울대 박사 연구진 특허배합. 숙면 돕는 마그네슘 100mg + 꿀잠 아미노산 글리신 3,000mg에, 이완 돕는 테아닌 · 가바까지 고함량</li><li><b>장면</b>스틱 타는 손 → 두 손으로 감싼 잔, 한 모금 후 「후—」 → 맛과 따뜻함 한마디</li><li><b>아침</b>밤 순환 돕는 생강 · 대추 · 계피 전통 레시피로 손발까지 따뜻 → 최소 3일 이상 루틴으로 마신 뒤 거울 속 아침, 몸이 개운하고 덜 붓는 얼굴</li></ol>
+<div class="hookex"><small>훅 예시</small>「새벽에 자꾸 깨던 40대, 요즘 바꾼 건 자기 전 차 한 잔」</div>
+<p class="ref">레퍼런스 · 루틴 기록형 후기
+같은 거울 · 같은 조명 · 같은 각도로 찍은 아침 얼굴</p></section>
+
+<section><div class="kick">02 · Tone &amp; Mood</div><h2>자기 전 1시간, 무드등 아래 손발까지 따뜻한 한 잔</h2>
+<div class="grid3"><figure><img src="img/mood1.jpg" alt=""><figcaption>무드등 켜진 협탁 위 패키지와 차</figcaption></figure><figure><img src="img/mood2.jpg" alt=""><figcaption>안대와 차, 스틱이 놓인 트레이</figcaption></figure><figure><img src="img/mood3.jpg" alt=""><figcaption>아침 햇살 속, 웃으며 일어나는 얼굴</figcaption></figure></div><div class="kw"><span>새벽에 깨던 밤</span><span>무드등만 켠 방</span><span>김 나는 차 한 잔</span><span>두 손으로 감싼 잔</span><span>잠옷</span><span>다음 날 아침 개운한 얼굴</span></div></section>
+
+<section class="soft"><div class="kick">03 · Must-have · 꼭 담아주세요</div><h2>타서 마시는 30초, 그리고 3일 이상 루틴 뒤의 아침</h2>
+<div class="mh"><figure><img src="img/must1.jpg" alt=""><b>01 · 타는 장면</b><span>따뜻한 물에 한 포를 붓고, 투명해질 때까지 저어서</span></figure><figure><img src="img/must2.jpg" alt=""><b>02 · 맛과 따뜻함</b><span>생강 · 계피 · 대추의 연한 수정과 맛, 손발까지 따뜻해지는 느낌 한마디</span></figure><figure><img src="img/must3.jpg" alt=""><b>03 · 3일+ 아침 기록</b><span>최소 3일 이상 마신 뒤 같은 거울 속 아침 얼굴 · 몸이 개운하고 덜 붓는 느낌</span></figure><figure><img src="img/must4.jpg" alt=""><b>04 · 새벽 장면으로 시작</b><span>어두운 방, 새벽 시계가 보이는 폰 화면이나 눈 뜬 얼굴로 첫 3초</span></figure></div><div class="rule">제품명은 「굿나잇티」 붙여서 · 카페인 · 설탕 · 멜라토닌 없이 · 세로 9:16, 위아래 여유 있게 · 자막 · 음악 없는 원본도 함께 전달</div></section>
+
+<section><div class="kick">04 · Checklist</div><h2>광고지만, 내 말투로 솔직하게</h2>
+<div class="box"><div class="tag">MUST MENTION · 꼭 언급해 주세요</div><ul><li class="strong">한국상륙 기념 얼리버드 프로모션중.</li><li class="strong">고함량 아미노산&amp;미네랄 배합 성분 들어가야하는 장면(필수)</li><li class="">패키지 · 스틱이 화면에 나오게,</li><li class="">차로 타는 장면과 나이트케어루틴으로 천천히 마시는 장면</li><li class="">맛에대한 피드백</li><li class="">다음날 얼굴과 함께 후기(확실히 잘 잔 느낌 · 개운 · 붓기 덜함)</li></ul></div>
+<div class="box"><div class="tag">HOOK · 첫 화면 문구 예시</div><ul><li>「새벽 3시 반, 오늘도 또 깼다」</li><li>「새벽에 자꾸 깨던 40대가 달라진 나이트루틴」</li><li>「손발까지 따뜻해지는 밤 루틴, 수정과 맛 차 한 잔」</li></ul></div>
+<div class="box"><div class="tag">CAPTION · 캡션 가이드</div><ul><li class="strong">제품 설명처럼 나열하지 말고, 내 후기처럼 자연스럽게 녹여 주세요.</li><li>서울대 박사 특허배합</li><li>고함량 마그네슘 · 글리신 아미노산 티</li><li>맛에 대한 후기</li><li>아침에 대한 후기</li></ul></div>
+<p class="note">가이드는 참고용이에요. 크리에이터님 스타일로 편하게 만들어 주세요.</p>
+<a class="back" href="https://collab.giboon.kr/">굿나잇티 제품 · 브랜드 소개 다시 보기 →</a>
+<div class="foot" style="text-align:center">GOOD NIGHTY by GIBOON · BRANDKIND</div></section>
+</div></body></html>
